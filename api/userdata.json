@@ -1,0 +1,68 @@
+{
+    "results": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Noah",
+                "last": "Jensen"
+            },
+            "location": {
+                "street": {
+                    "number": 369,
+                    "name": "Enghaven"
+                },
+                "city": "Esbjerg V",
+                "state": "Nordjylland",
+                "country": "Denmark",
+                "postcode": 59482,
+                "coordinates": {
+                    "latitude": "-36.9815",
+                    "longitude": "-123.0301"
+                },
+                "timezone": {
+                    "offset": "0:00",
+                    "description": "Western Europe Time, London, Lisbon, Casablanca"
+                }
+            },
+            "email": "noah.jensen@example.com",
+            "login": {
+                "uuid": "b3702398-3440-41c6-8afb-051d8aedc4b9",
+                "username": "whitepanda123",
+                "password": "okokok",
+                "salt": "psrafVzs",
+                "md5": "e3234ed663c838da41c1e033ec75873b",
+                "sha1": "da28abae0d6475429160da566abfd8c87f3966a1",
+                "sha256": "c549badebd811b60a43daa7b4acf87a5639d838f38df4388303d31726e420848"
+            },
+            "dob": {
+                "date": "1964-02-26T05:32:07.634Z",
+                "age": 57
+            },
+            "registered": {
+                "date": "2004-02-15T08:35:26.494Z",
+                "age": 17
+            },
+            "phone": "56887275",
+            "cell": "91534146",
+            "id": {
+                "name": "CPR",
+                "value": "260264-9994"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/81.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/81.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/81.jpg"
+            },
+            "nat": "DK"
+        }
+    ],
+    "info": [
+        {
+            "seed": "e2bd5d5d92a8eec4",
+            "results": 1,
+            "page": 1,
+            "version": "1.3"
+        }
+    ]
+}
