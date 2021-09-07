@@ -1,11 +1,12 @@
 //console.log("You look marvelous!")
 
 const getRondamUser = () => {
-    return fetch("https://randomuser.me/")
+    return fetch("https://randomuser.me/api")
         .then(response => response.json())
-        .then(data =>
-            display.innerHTML = data.randomUser
-        )
+        .then(data => {
+
+            console.log(data)
+        })
 
 
 }
