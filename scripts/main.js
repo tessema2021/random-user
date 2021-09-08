@@ -15,6 +15,11 @@ const getRondamUser = () => {
 }
 getRondamUser();
 
+const btnElement = document.querySelector(".main")
+btnElement.addEventListener("click", (event) => {
+    if (event.target.id === "btn") {
+        getRondamUser();
 
-
+    }
+})
 

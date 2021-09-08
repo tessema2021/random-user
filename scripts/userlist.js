@@ -14,10 +14,10 @@ const newDate = (date) => {
 
 export const getUser = (results) => {
     return `<section class="user_ifo">
+    <h1>${results.name.title} ${results.name.first} ${results.name.last}</h1>
       <div>
            <img src=" ${results.picture.large}">
            </div>
-           <li>${results.name.title} ${results.name.first} ${results.name.last}</li>
            <li>${results.gender}</li>
            <li>${newDate(results.dob.date)} ${results.dob.age}</li>
            <li>${results.email}</li>
